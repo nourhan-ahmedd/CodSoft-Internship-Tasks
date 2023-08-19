@@ -1,9 +1,9 @@
 # CodSoft-Internship-Tasks
-###A repository that is created to complete the tasks of the internship offered by CodSoft.
+A repository that is created to complete the tasks of the internship offered by CodSoft.<br>
 
-###Three branches are created for the three different tasks.
+Three branches are created for the three different tasks.<br>
 
-####Task(1): Portfolio
-####Task(2): Landing Page
-####Task(3): Calculator 
+Task(1): Portfolio<br>
+Task(2): Landing Page<br>
+Task(3): Calculator<br>
 
