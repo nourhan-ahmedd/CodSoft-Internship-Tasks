@@ -3,7 +3,7 @@ A repository that is created to complete the tasks of the internship offered by 
 
 Three branches are created for the three different tasks.<br>
 
-Task(1): Portfolio<br>
-Task(2): Landing Page<br>
-Task(3): Calculator<br>
+codsoft_1: Portfolio<br>
+codsoft_2: Landing Page<br>
+codsoft_3: Calculator<br>
 
