@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href = "styles.css">
+         
+        <meta charset = "UTF-8">
+        <meta property="og:title" content="My portfolio">
+        <meta property="og:type"  content="website">
+        <meta property="og:image" content="profile.jpg">
+        <meta property="og:url"   content="file:///Users/nourhanahmed2002/Desktop/Task%201%20internship/index.html">
+
+        <meta name = "viewport" content = "width=device-width, initial-scale =1.0" />
+    </head>
+
+    <body style="background-image: url('background-image3.jpg'); background-size: cover; background-position: center;">
+        <header>
+            <h1>Nourhan Ahmed Hanafy</h1>
+            <p> <b>A passionate student that pursues the career of Web Development.</b></p>
+            <figure>
+              <img id = "profile" src = "profile.jpg" alt = "My Profile Photo">
+            </figure>  
+            <pre>
+                <section class = "about">
+                <article class = "about-me">
+<h3>About me:</h3>I am an undergraduate at Cairo University (faculty of Biomedical Engineering), Egypt. I am extremely passionate about Front-End Web Development and would love to gain as much
+knowledge as possible in order to be able to pursue a career in this field. I participated in several events and trainings such as taking part in the 8th Undergraduate
+Engineering Mathematics Research Forum which took place at Cairo University and won first place. <details> <summary>See More</summary>
+Moreover, I trained at baheya hospital that is specialized in breast cancer and gained knowledge about the calibration and
+maintenance of the medical devices(A picture of the certificate is shown below). Lastly, I completed several projects considering
+Web Development, Machine Learning and Databases.<br> 
+<img id = "baheya" src = "Baheya certificate.jpeg">
+                    </details>
+               </article>
+            </section>
+            </pre>
+        </header>
+
+        <main>
+            <pre>
+<section class = "mySkills">
+<div id = "skill">
+                <h2>Skills</h2>
+</div>
+ <div class = "flex-container" >
+    <div class = "skill">HTML</div>
+    <div class = "skill skill2">CSS</div>
+    <div class = "skill">OOP</div>
+    <div class = "skill skill4">Javascript</div>
+    <div class = "skill">C++</div>
+    <div class = "skill skill6">Python</div>
+    <div class = "skill">Team Work</div>
+    <div class = "skill skill8">Time Management</div>
+ </div>
+</section>
+<section class = "myProjects">
+<div id = "project">
+                <h2>Projects</h2>
+</div>
+<div id = "sections">
+    <ul>
+<li><h1>Machine Learning:</h1><h3 class = "subtitles1">Predicting the 10-year risk of future coronary heart disease (CHD) in patients.</h3>
+    <pre>
+I participated in creating a model that predicts the likeability of patients to have a cardiovascular disease within ten years given 15 factors using the following steps:
+
+<i id = "note"><u>Note</u></i>: the dataset is from <b>kaggle</b>.
+        <ol>
+            <li>Distiguishing Quantitative and Categorical columns in the dataset.</li>
+            <li>Applying label encoding to the categorical columns in the dataset(data cleaning).</li>
+            <li>Removing the outliers from the dataset by using a +-1.5 threshold(data cleaning).</li>
+            <li>Standardizing the Quantitative columns(calculating the z-score).</li>
+            <li>Filling the missing data with the mean of each feature.</li>
+            <li>Noticing the depedancies of the features with respect to each other using <b>Heat Map</b> and getting rid of some of these features.</li>
+            <li>Splitting the data into training data(80%) and testing data(20%).</li>
+            <li>Calculating the Null and Alternative Hypotheses using <b>Shapiro-Wilk test</b> for Quantitative features and <b>Chi-square test</b> for Categorical features.</li>
+            <li>Implementing the Naive Bayes Classifier from scratch and comparing my result with the standard python package.</li>
+            <li>Both gave me the same result of 88.7% accuracy which makes the model highly accurate and trustful.</li>
+        </ol>
+    </pre>
+    <div class = "subtitles-ML">
+        <h2><u>Classification of features</u>:</h2>
+        <img id = "classification" src = "classification.png">
+        <h2><u>Before and after effect of removing the outliers</u>:</h2>
+        <img id = "outliers" src = "outliers.png">
+        <h2><u>Standardizing Quantitative features</u>:</h2>
+        <img id = "standardization" src = "standardization.png">
+        <h2><u>Heat Map before removing dependancies</u>:</h2>
+        <img id = "map" src = "heat map1.png">
+        <h2><u>Heat Map after removing dependancies</u>:</h2>
+        <img id = "map" src = "heat map2.png">
+        <h2><u>Our model accuracy</u>:</h2>
+        <img id = "ourAccuracy" src = "accuracy1.png">
+        <h2><u>Standard python package's accuracy</u>:</h2>
+        <img id = "packageAccuracy" src = "accuracy2.png">
+        
+    </div>
+
+</li>
+<li><h1>Web Development:</h1><h3 class = "subtitles2">Admin of the Prosthetics Department in a hospital.</h3>
+    <pre>
+        <ol>
+        <li>It consists of ten frames which are Login, Home, Suppliers, Doctors, Patients, Prosthetics, Orders, Operations, Supplied by and Logout.</li>
+        <li>I added various validations to prevent error, enhance both security and user experience and avoid data loss. For an example, the Login page will not be directed
+to the home page unless the user entered the correct username and password. To add, when creating a new record in any of the tables, all of the fields must be filled 
+with the correct data types.</li>
+        <li>I also made sure to link the tables to each other using foreign keys. To elaborate, the operations table has the doctor, patient and the prosthetic required for each
+operation as foreign keys attributes linked to the doctors, patients and prosthetics databases. As a result, the drop-down list that appears when updating an existing 
+record or creating a new record contains only the information that is present in the other tables.</li>
+        <li> I added a search bar that searches based on the name.</li>
+        </ol>
+    </pre>
+    <div class = "subtitles-WD">
+    <h2><u>Login page</u>:</h2>
+    <img id = "Login-pic" src = "Login.png">
+    <img id = "Login-pic-error" src = "error Login.png">
+    <h2><u>Home Page</u>:</h2>
+    <img id = "Home-pic" src = "Home.png">
+    <h2><u>Suppliers</u>:</h2>
+    <img id = "Suppliers-pic" src = "Suppliers.png">
+    <h2><u>Doctors page</u>:</h2>
+    <img id = "Doctors-pic" src = "Doctors.png">
+    <h2><u>Patients page</u>:</h2>
+    <img id = "Patients-pic" src = "Patients.png">
+    <h2><u>Operations page</u>:</h2>
+    <img id = "Operations-pic" src = "Operations.png">
+    <h2><u>Create an operation with some validations that are also applied to the rest of the tables</u>:</h2>
+    <img id = "Create-operation1-pic" src = "create operation.png">
+    <img id = "Create-operation2-pic" src = "create operation 2.png">
+    <img id = "Create-operation3-pic" src = "create operation 3.png">
+    <h2><u>Update an operation</u>:</h2>
+    <img id = "Update-operation1-pic" src = "update operation.png">
+    <img id = "Update-operation2-pic" src = "update operation 2.png">
+    <h2><u>Delete an operation record</u>:</h2>
+    <img id = "Delete-operation-pic" src = "delete operation.png">
+    <h2><u>Search a record by name</u>:</h2>
+    <img id = "Search-pic" src = "search.png">
+    </div>
+
+</li>
+    </ul>
+</div>
+</section>
+<section class = "myResume">
+<div id = "resume">
+        <h2>Resume</h2>
+</div>
+    <h2 id = "view">To view my Resume:<a id = "link" href = "Resume.pdf"> Click Here</a></h2>
+</section>
+
+<section class = "myContacts">
+<div id = "contact">
+        <h2>Contact</h2>
+</div>
+        <h2 id = "mail">Email: <a id = "email" href = "mailto:nourhanahmed0505@gmail.com">nourhanahmed0505@gmail.com</a></h2>
+        <h3 id = "phone">Phone Number: +20 01148995477</h3>
+        <h3 id = "linkedIn">LinkedIn:</h3>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nourhan-ahmed-65845a220" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://eg.linkedin.com/in/nourhan-ahmed-65845a220?trk=profile-badge"></a></div>
+              
+</section>
+            </pre>
+        </main>
+
+        <footer>
+
+            <pre>&copy; <span id="current-year"></span> Nourhan Ahmed Hanafy. All rights reserved.                                                                                                           <a href = "#top">Back to the top</a></pre>
+
+        </footer>
+        <script src = "script.js"></script>
+        <script type = "text/Javascript" src = "https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    </body>
+</html>

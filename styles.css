@@ -1,0 +1,180 @@
+img {
+    width: 20%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    color: #25252e;
+    font-family: 'Rubik', sans-serif;
+}
+
+#skill, #project, #resume, #contact{
+    display: inline-block;
+    background-color: #8badae;
+    color: #292930;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#resume, #contact {
+    width:12%
+}
+
+
+#link, #email, #phone, #linkedIn, #mail, #view {
+    text-decoration: none;
+    color: #25252e;
+    font-size: 20px;
+}
+
+#link, #skill, #project, #resume, #contact, #email, #phone, #linkedIn {
+    
+    transition: font-size 0.3s ease-in-out;
+  }
+
+
+#link:hover, #email:hover, #phone:hover, #linkedIn:hover, #view:hover, #mail:hover{
+    color: rgb(215, 210, 210);
+    font-size: 22px;
+}
+
+#skill:hover , #project:hover, #resume:hover, #contact:hover {
+    font-size: 25px;
+    color: white;
+}
+
+
+.skill:hover {
+    font-size: 20px;
+}
+
+
+#sections {
+    display: inline-block;
+    background-image: linear-gradient(135deg, #3498db, #e74c3c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #292930;
+}
+
+
+#profile {
+   border: 1px solid #ddd;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   border-radius: 100px;
+}
+
+#Login-pic, #Login-pic-error, #Home-pic, #Suppliers-pic, #Doctors-pic, #Patients-pic, #Operations-pic, #Create-operation1-pic, #Create-operation2-pic, #Create-operation3-pic, #Update-operation1-pic, #Update-operation2-pic, #Delete-operation-pic, #Search-pic {
+    width: 50%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.subtitles-WD, .subtitles-ML{
+    text-align: center;
+}
+
+.about-me {
+  border: 5px solid #1111; 
+  padding: 20px;
+  border-radius: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#classification {
+    width: 20%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+
+#outliers, #standardization, #map, #ourAccuracy {
+    width: 30%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+#packageAccuracy {
+    width: 40%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+.skill {
+    padding: 12px 30px;
+    background-color: #8badae;
+    color: #292930;
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.skill2, .skill4, .skill6, .skill8 {
+    background-color: white;
+}
+
+#note :hover {
+    color: red;
+}
+
+.subtitles1 {
+  background-color: #8badae;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.subtitles2 {
+    background-color: #fee9b6;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.subtitles1:hover, .subtitles2:hover {
+    font-size: 20px;
+}
+
+
+#baheya {
+    border-radius: 20px;
+}
+
+footer {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    transition: font-size 0.3s ease-in-out;
+    color: #25252e;
+}
+
+footer a:hover {
+    color:white;
+    font-size: 20px;
+}
+
+
+.about {
+    width:100%;
+}
